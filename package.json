@@ -1,0 +1,9 @@
+{
+  "name": "react-state-promise",
+  "version": "1.0.0",
+  "description": "promise based state setting in react",
+  "main": "index.js",
+  "repository": "https://github.com/soenkekluth/react-state-promise",
+  "author": "Sönke Kluth <mail@soenkekluth.com>",
+  "license": "MIT"
+}
