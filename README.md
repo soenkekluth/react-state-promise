@@ -1,11 +1,21 @@
 # react-state-promise
 
-instead of the idiot style callback from facebook, hanle state setting with promises like this:
+instead of the idiot style callback from facebook, handle state setting with promises like this:
 
 
 ````
-setState(this, {
+import setState from 'react-state-promise';
+
+class YourComponent extends Component {
+
+ test(){
+ setState(this, {
   running: true,
 })
 .then(newState => faceCrap())
+
+ }
+
+}
+
 ````
