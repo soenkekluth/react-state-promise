@@ -8,14 +8,12 @@ import setState from 'react-state-promise';
 
 class YourComponent extends Component {
 
- test(){
- setState(this, {
-  running: true,
-})
-.then(newState => faceCrap())
-
- }
-
+  test() {
+    setState(this, {
+        running: true,
+      })
+      .then(newState => faceCrap());
+  }
 }
 
 ````
