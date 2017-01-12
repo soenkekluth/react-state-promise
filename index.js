@@ -10,8 +10,7 @@ const setState = (instance, nextState) => {
   const promise = new Promise((resolve) => {
     promiseResolver = resolve;
   })
-  .then(() => {
-    const state = instance.state;
+  .then((state) => {
     delete instanceMap[instance];
     return state;
   });
