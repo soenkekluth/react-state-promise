@@ -1,6 +1,6 @@
 # react-state-promise
 
-instead of the idiot style callback from facebook, handle state setting with promises like this:
+get a Promise from setState instead of using the idiot callback from facebook!
 
 ## setState
 
@@ -32,16 +32,25 @@ class YourComponent extends Component {
 ````
 
 you can also :
+
 ## getNextState
 
 ```
+import { getNextState } from 'react-state-promise';
+....
+
 getNextState(this)
 
 ```
 
 and
+
 ## willChange
+
 ```
+import { willChange } from 'react-state-promise';
+....
+
 willChange(this, {aStatePart: true})
 
 ```
