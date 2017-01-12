@@ -1,6 +1,6 @@
 {
   "name": "react-state-promise",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "promise based state setting in react",
   "main": "index.js",
   "keywords": [
@@ -13,5 +13,8 @@
   ],
   "repository": "https://github.com/soenkekluth/react-state-promise",
   "author": "Sönke Kluth <mail@soenkekluth.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "object-assign": "^4.1.0"
+  }
 }
