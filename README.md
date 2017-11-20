@@ -1,5 +1,7 @@
 # react-state-promise
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/soenkekluth/react-state-promise.svg)](https://greenkeeper.io/)
+
 get a Promise from setState instead of using the idiot callback from facebook!
 
 ## setState
